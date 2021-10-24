@@ -1161,8 +1161,10 @@ Bootstrap 是一组用于网站和网络应用程序开发的开源前端框架�
     
     ![img](http://embeddedinventor.com/wp-content/uploads/2021/01/image-29-1024x389.png)
 
+    
+
+    比如，想查看 apt 的用法
     ~~~bash
-# 比如，想查看 apt 的用法
     $ apt --help
     或者
     $ man apt
@@ -1235,14 +1237,16 @@ Bootstrap 是一组用于网站和网络应用程序开发的开源前端框架�
     vi ~/.bash_aliases
     ~~~
 
-    进入vi编辑器后，按 `i` 进入插入模式（或者你想叫编辑模式也行）
+    进入[vi编辑器](https://www.cnblogs.com/itech/archive/2009/04/17/1438439.html)后，按 `i` 进入插入模式（或者你想叫编辑模式也行）
+
+    补充：[Learn Vim](https://danielmiessler.com/study/vim/)
 
     ![linux31](http://storage.szulib.top/szulib/image-hosting/linux31.png)
 
     可以看到左下角出现了 `-- INSERT --`，就可以开始输入了
 
     我们写上
-
+    
     ~~~bash
     alias cle='clear'
     ~~~
@@ -1252,7 +1256,7 @@ Bootstrap 是一组用于网站和网络应用程序开发的开源前端框架�
     然后保存退出，按下`:` 接着输入 `wq`  回车（w是保存的意思，q是退出） 
 
     ![linux33](http://storage.szulib.top/szulib/image-hosting/linux33.png)
-
+    
     在终端运行：
     
     ~~~bash
@@ -1262,7 +1266,7 @@ Bootstrap 是一组用于网站和网络应用程序开发的开源前端框架�
     ![linux32](http://storage.szulib.top/szulib/image-hosting/linux32.png)
 
     我们尝试一下刚刚设置的别名 `cle` 看看是不是和 `clear` 是同样的效果——清除屏幕，发现是一样的，OK
-
+    
     刚刚好像有点不务正业了... 现在我们继续学习关于文件权限的内容 （咳咳
     
     感觉有篇笔记写的还行，那就看这个吧 [文件权限基础](https://itboon.github.io/linux-20/file-permission/basic/)，我就不用写了，也不用看太多，会用 `chmod` 修改权限 用`chown` 修改所属就可以了 。
